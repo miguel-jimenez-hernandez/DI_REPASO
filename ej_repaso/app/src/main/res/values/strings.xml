@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ej_repaso</string>
+    <integer-array name="caratulas">
+        <item>@drawable/starwar</item>
+        <item>@drawable/indy</item>
+        <item>@drawable/salo</item>
+        <item>@drawable/maya</item>
+        <item>@drawable/adams</item>
+        <item>@drawable/miller</item>
+    </integer-array>
+    <integer-array name="pegis">
+        <item>@drawable/pegi3</item>
+        <item>@drawable/pegi7</item>
+        <item>@drawable/pegi12</item>
+        <item>@drawable/pegi16</item>
+        <item>@drawable/pegi18</item>
+    </integer-array>
+    <integer-array name="defaults">
+        <item>@drawable/starwar</item>
+        <item>@drawable/pegi18</item>
+    </integer-array>
+</resources>
