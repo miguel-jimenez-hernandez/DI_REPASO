@@ -28,10 +28,10 @@ class Añadir : AppCompatActivity() {
 
         this.bind.aAdirBtn.setOnClickListener{
             val nombre = this.bind.aAdirEtNombre.text.toString()
-            val precio = this.bind.aAdirEtPrecio.text.toString().toDouble()
+            val precio = this.bind.aAdirEtPrecio.text.toString().toDoubleOrNull()
             if(nombre.trim() == ""){
                 this.bind.aAdirEtNombre.error = "El nombre no puede quedar vacio"
-            } else if(precio < 0.0){
+            } else if(precio == null || precio < 0.0){
                 this.bind.aAdirEtPrecio.error = "El precio debe ser positivo"
             } else {
                 val caratula = this.defaults.getResourceId(0,0)

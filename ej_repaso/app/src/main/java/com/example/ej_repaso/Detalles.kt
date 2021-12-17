@@ -18,10 +18,10 @@ class Detalles : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
-        this.bind.detallesIvCaratula.setImageResource(this.pelicula.caratula)
-        this.bind.detallesTvTitulo.text = this.pelicula.titulo
-        var pegi = this.pelicula.getImg()
-        this.bind.detallesIvPegi.setImageResource(pegi)
+//        this.bind.detallesIvCaratula.setImageResource(this.pelicula.caratula)
+//        this.bind.detallesTvTitulo.text = this.pelicula.titulo
+//        var pegi = this.pelicula.getImg()
+//        this.bind.detallesIvPegi.setImageResource(pegi)
 
     }
 }

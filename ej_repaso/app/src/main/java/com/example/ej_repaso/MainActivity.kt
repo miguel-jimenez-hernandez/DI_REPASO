@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
         this.bind.mainRv.layoutManager= LinearLayoutManager(this)
         this.bind.mainBtn.setOnClickListener {
             val activity = Intent(this,Añadir::class.java)
+            activity.putExtra("PELICULAS",ArrayList(this.peliculas))
             startActivity(activity)
         }
 
