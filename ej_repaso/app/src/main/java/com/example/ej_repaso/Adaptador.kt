@@ -17,7 +17,6 @@ class Adaptador(
 ):
     RecyclerView.Adapter<Adaptador.ViewHolder>(),
     Filterable{
-    // salvar lista
 
     class ViewHolder(val bind: ActivityAdaptadorBinding)
         : RecyclerView.ViewHolder(bind.root)
